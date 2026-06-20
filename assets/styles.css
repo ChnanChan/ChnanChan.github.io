@@ -100,8 +100,8 @@ img {
   min-height: 100vh;
   isolation: isolate;
   display: grid;
-  place-items: end center;
-  padding: 9vh 24px 8vh;
+  place-items: center;
+  padding: 5vh 24px 7vh;
   overflow: hidden;
 }
 
@@ -145,7 +145,7 @@ img {
   grid-template-columns: 250px minmax(0, 1fr);
   gap: clamp(28px, 4vw, 56px);
   align-items: center;
-  padding: clamp(24px, 4vw, 44px);
+  padding: clamp(22px, 3vw, 34px);
   border: 1px solid var(--line);
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.02)),
@@ -504,8 +504,8 @@ img {
 
   .hero {
     min-height: auto;
-    padding-top: 52px;
-    padding-bottom: 88px;
+    padding-top: 34px;
+    padding-bottom: 72px;
   }
 
   .hero-card,
