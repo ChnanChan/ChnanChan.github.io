@@ -8,7 +8,7 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Chanhui Lee">
-  <meta property="og:description" content="Research, projects, and notes by Chanhui Lee.">
+  <meta property="og:description" content="Research, publications, and notes by Chanhui Lee.">
   <meta property="og:image" content="assets/profile.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,10 +33,10 @@
         <h1>Chanhui <span>Lee</span></h1>
         <p class="subtitle">Generative models, representation learning, and visual computing</p>
         <p class="affiliation">
-          Gwangju Institute of Science and Technology
+          Pohang University of Science and Technology (POSTECH)
         </p>
         <div class="socials" aria-label="External links">
-          <a href="mailto:as584868@gm.gist.ac.kr" aria-label="Email" title="Email">
+          <a href="mailto:chanlee@postech.ac.kr" aria-label="Email" title="Email">
             <i class="fa-solid fa-envelope"></i>
           </a>
           <a href="https://github.com/ChnanChan" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
@@ -63,14 +63,14 @@
         </p>
         <p>
           I like building research code that is clear enough to inspect and robust enough to iterate on. This
-          page collects research updates, selected projects, and notes as they become public.
+          page collects research updates, selected publications, and notes as they become public.
         </p>
 
         <div class="chips">
-          <span><i class="fa-solid fa-location-dot"></i> Gwangju, Korea</span>
+          <span><i class="fa-solid fa-location-dot"></i> Pohang, Korea</span>
           <span><i class="fa-solid fa-flask"></i> Generative AI</span>
           <span><i class="fa-solid fa-layer-group"></i> Representation learning</span>
-          <span><i class="fa-solid fa-envelope"></i> as584868@gm.gist.ac.kr</span>
+          <span><i class="fa-solid fa-envelope"></i> chanlee@postech.ac.kr</span>
         </div>
       </div>
     </section>
@@ -85,61 +85,18 @@
       <div class="timeline reveal-stagger">
         <article class="news-item">
           <time>06-2026</time>
-          <p>Launched this personal website.</p>
+          <p>Two papers are accepted to ECCV 2026.</p>
         </article>
         <article class="news-item">
-          <time>06-2026</time>
-          <p>Started organizing public research notes and project summaries here.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="section-header reveal">
-        <span class="index">03</span>
-        <h2>Projects</h2>
-        <span class="rule"></span>
-      </div>
-
-      <div class="project-grid reveal-stagger">
-        <article class="project-card">
-          <div class="project-media project-media-latent" aria-hidden="true"></div>
-          <div class="project-body">
-            <p class="venue">Research project</p>
-            <h3>VAE Transfer</h3>
-            <p>
-              Experiments on transferring latent representations and autoencoding behavior across diffusion
-              model components.
-            </p>
-            <div class="tags">
-              <span>Diffusion</span>
-              <span>VAE</span>
-              <span>Latent spaces</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-media project-media-vision" aria-hidden="true"></div>
-          <div class="project-body">
-            <p class="venue">Engineering</p>
-            <h3>Readable Research Code</h3>
-            <p>
-              Implementation notes, reproducible experiments, and small tools for faster model iteration.
-            </p>
-            <div class="tags">
-              <span>PyTorch</span>
-              <span>Experiments</span>
-              <span>Tooling</span>
-            </div>
-          </div>
+          <time>02-2025</time>
+          <p>One paper is accepted to CVPR 2025.</p>
         </article>
       </div>
     </section>
 
     <section class="section" id="publications">
       <div class="section-header reveal">
-        <span class="index">04</span>
+        <span class="index">03</span>
         <h2>Publications</h2>
         <span class="rule"></span>
       </div>
@@ -148,24 +105,57 @@
         <article class="pub-card">
           <div class="pub-thumb pub-thumb-wave" aria-hidden="true"></div>
           <div class="pub-content">
-            <p class="venue">Manuscripts and publications</p>
-            <h3>Selected papers will appear here</h3>
-            <p class="authors"><strong>Chanhui Lee</strong></p>
-            <p>
-              This section is ready for papers, project pages, code links, and BibTeX entries. Add each new
-              publication as a card and the layout will stay consistent.
-            </p>
+            <p class="venue">ECCV 2026</p>
+            <h3>Universal Image Immunization against Diffusion-based Image Editing via Semantic Injection</h3>
+            <p class="authors"><strong>Chanhui Lee</strong>, Seunghyun Shin, Donggyu Choi, Hae-gon Jeon, Jeany Son</p>
+            <p>Accepted to ECCV 2026.</p>
             <div class="pub-actions">
-              <a class="action disabled" href="#" aria-disabled="true">Paper</a>
-              <a class="action disabled" href="#" aria-disabled="true">Code</a>
-              <button class="action" type="button" data-bibtex-toggle="bibtex-template">
+              <a class="action" href="https://arxiv.org/abs/2602.14679" target="_blank" rel="noopener">arXiv</a>
+              <button class="action" type="button" data-bibtex-toggle="bibtex-immunization">
                 BibTeX <i class="fa-solid fa-chevron-down"></i>
               </button>
             </div>
-            <pre class="bibtex" id="bibtex-template"><code>@misc{lee2026website,
-  title={Chanhui Lee: Personal Website},
-  author={Lee, Chanhui},
-  year={2026}
+            <pre class="bibtex" id="bibtex-immunization"><code>@misc{lee2026universal,
+  title={Universal Image Immunization against Diffusion-based Image Editing via Semantic Injection},
+  author={Lee, Chanhui and Shin, Seunghyun and Choi, Donggyu and Jeon, Hae-gon and Son, Jeany},
+  year={2026},
+  eprint={2602.14679},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
+}</code></pre>
+          </div>
+        </article>
+
+        <article class="pub-card">
+          <div class="pub-thumb pub-thumb-wave" aria-hidden="true"></div>
+          <div class="pub-content">
+            <p class="venue">ECCV 2026</p>
+            <h3>Anti-Prompt: Image Protection against Text-Guided Image-to-Video Generation</h3>
+            <p class="authors">Yeonghwan Song, <strong>Chanhui Lee</strong>, Jinsoo Park, Jeany Son</p>
+            <p>Accepted to ECCV 2026. Paper link coming soon.</p>
+          </div>
+        </article>
+
+        <article class="pub-card">
+          <div class="pub-thumb pub-thumb-wave" aria-hidden="true"></div>
+          <div class="pub-content">
+            <p class="venue">CVPR 2025</p>
+            <h3>Data-free Universal Adversarial Perturbation with Pseudo-semantic Prior</h3>
+            <p class="authors"><strong>Chanhui Lee</strong>, Yeonghwan Song, Jeany Son</p>
+            <p>Accepted to CVPR 2025.</p>
+            <div class="pub-actions">
+              <a class="action" href="https://arxiv.org/abs/2502.21048" target="_blank" rel="noopener">arXiv</a>
+              <button class="action" type="button" data-bibtex-toggle="bibtex-psp">
+                BibTeX <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+            <pre class="bibtex" id="bibtex-psp"><code>@misc{lee2025datafree,
+  title={Data-free Universal Adversarial Perturbation with Pseudo-semantic Prior},
+  author={Lee, Chanhui and Song, Yeonghwan and Son, Jeany},
+  year={2025},
+  eprint={2502.21048},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV}
 }</code></pre>
           </div>
         </article>
