@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chanhui Lee</title>
+  <meta name="description" content="Personal website of Chanhui Lee.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chanhui Lee">
+  <meta property="og:description" content="Research, projects, and notes by Chanhui Lee.">
+  <meta property="og:image" content="assets/profile.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <header class="hero" id="top">
+    <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+      Scroll <i class="fa-solid fa-chevron-down"></i>
+    </a>
+
+    <div class="hero-card reveal">
+      <div class="hero-photo">
+        <img src="assets/profile.png" alt="Chanhui Lee">
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Researcher</p>
+        <h1>Chanhui <span>Lee</span></h1>
+        <p class="subtitle">Generative models, representation learning, and visual computing</p>
+        <p class="affiliation">
+          Gwangju Institute of Science and Technology
+        </p>
+        <div class="socials" aria-label="External links">
+          <a href="mailto:as584868@gm.gist.ac.kr" aria-label="Email" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/ChnanChan" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-tight" id="about">
+      <div class="section-header reveal">
+        <span class="index">01</span>
+        <h2>About</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="about-text reveal">
+        <p>
+          I am Chanhui Lee, a researcher interested in generative models and visual representation learning.
+          My current work explores how latent spaces, autoencoding models, and diffusion pipelines can be
+          transferred, adapted, and understood across visual domains.
+        </p>
+        <p>
+          I like building research code that is clear enough to inspect and robust enough to iterate on. This
+          page collects research updates, selected projects, and notes as they become public.
+        </p>
+
+        <div class="chips">
+          <span><i class="fa-solid fa-location-dot"></i> Gwangju, Korea</span>
+          <span><i class="fa-solid fa-flask"></i> Generative AI</span>
+          <span><i class="fa-solid fa-layer-group"></i> Representation learning</span>
+          <span><i class="fa-solid fa-envelope"></i> as584868@gm.gist.ac.kr</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="section-header reveal">
+        <span class="index">02</span>
+        <h2>News</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="timeline reveal-stagger">
+        <article class="news-item">
+          <time>06-2026</time>
+          <p>Launched this personal website.</p>
+        </article>
+        <article class="news-item">
+          <time>06-2026</time>
+          <p>Started organizing public research notes and project summaries here.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-header reveal">
+        <span class="index">03</span>
+        <h2>Projects</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="project-grid reveal-stagger">
+        <article class="project-card">
+          <div class="project-media project-media-latent" aria-hidden="true"></div>
+          <div class="project-body">
+            <p class="venue">Research project</p>
+            <h3>VAE Transfer</h3>
+            <p>
+              Experiments on transferring latent representations and autoencoding behavior across diffusion
+              model components.
+            </p>
+            <div class="tags">
+              <span>Diffusion</span>
+              <span>VAE</span>
+              <span>Latent spaces</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media project-media-vision" aria-hidden="true"></div>
+          <div class="project-body">
+            <p class="venue">Engineering</p>
+            <h3>Readable Research Code</h3>
+            <p>
+              Implementation notes, reproducible experiments, and small tools for faster model iteration.
+            </p>
+            <div class="tags">
+              <span>PyTorch</span>
+              <span>Experiments</span>
+              <span>Tooling</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="section-header reveal">
+        <span class="index">04</span>
+        <h2>Publications</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="publication-list reveal-stagger">
+        <article class="pub-card">
+          <div class="pub-thumb pub-thumb-wave" aria-hidden="true"></div>
+          <div class="pub-content">
+            <p class="venue">Manuscripts and publications</p>
+            <h3>Selected papers will appear here</h3>
+            <p class="authors"><strong>Chanhui Lee</strong></p>
+            <p>
+              This section is ready for papers, project pages, code links, and BibTeX entries. Add each new
+              publication as a card and the layout will stay consistent.
+            </p>
+            <div class="pub-actions">
+              <a class="action disabled" href="#" aria-disabled="true">Paper</a>
+              <a class="action disabled" href="#" aria-disabled="true">Code</a>
+              <button class="action" type="button" data-bibtex-toggle="bibtex-template">
+                BibTeX <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+            <pre class="bibtex" id="bibtex-template"><code>@misc{lee2026website,
+  title={Chanhui Lee: Personal Website},
+  author={Lee, Chanhui},
+  year={2026}
+}</code></pre>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      © 2026 Chanhui Lee. Design direction inspired by
+      <a href="https://anttwo.github.io/" target="_blank" rel="noopener">Antoine Guedon's homepage</a>.
+    </p>
+  </footer>
+</body>
+</html>
