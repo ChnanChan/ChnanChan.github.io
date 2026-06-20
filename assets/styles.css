@@ -292,7 +292,7 @@ img {
 
 .news-item {
   display: grid;
-  grid-template-columns: 110px minmax(0, 1fr);
+  grid-template-columns: 170px minmax(0, 1fr);
   gap: 22px;
   padding: 16px 0;
   border-bottom: 1px solid var(--line);
@@ -302,6 +302,7 @@ img {
   color: var(--accent);
   font-size: 15px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .news-item p {
