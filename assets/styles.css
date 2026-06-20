@@ -97,11 +97,11 @@ img {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
   isolation: isolate;
   display: grid;
   place-items: center;
-  padding: 5vh 24px 7vh;
+  padding: 38px 24px 26px;
   overflow: hidden;
 }
 
@@ -122,21 +122,6 @@ img {
   background:
     radial-gradient(circle at 50% 38%, transparent 0 18rem, rgba(0, 0, 0, 0.34) 54rem),
     linear-gradient(to bottom, rgba(var(--bg-rgb), 0.1), rgba(var(--bg-rgb), 0.96));
-}
-
-.scroll-cue {
-  position: absolute;
-  left: 50%;
-  bottom: 28px;
-  transform: translateX(-50%);
-  z-index: 2;
-  color: var(--faint);
-  font-size: 13px;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .hero-card {
@@ -236,11 +221,11 @@ img {
 .section {
   width: min(var(--max), calc(100vw - 48px));
   margin: 0 auto;
-  padding: 92px 0;
+  padding: 72px 0;
 }
 
 .section-tight {
-  padding-top: 70px;
+  padding-top: 24px;
 }
 
 .section-header {
@@ -504,8 +489,8 @@ img {
 
   .hero {
     min-height: auto;
-    padding-top: 34px;
-    padding-bottom: 72px;
+    padding-top: 24px;
+    padding-bottom: 18px;
   }
 
   .hero-card,
