@@ -561,3 +561,7 @@ img {
   .project-body h3,
   .pub-content h3 { font-size: 1.55rem; }
 }
+
+.pub-actions span.action {
+  cursor: default;
+}
